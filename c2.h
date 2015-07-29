@@ -1,3 +1,6 @@
+#ifndef C2_H
+#define C2_H
+
 #include <vector>
 #include <string>
 #include "cexport.h"
@@ -40,3 +43,5 @@ class c_EXPORT c2
   std::vector<std::string> const&
   getval() const;
 };
+
+#endif // C2_H

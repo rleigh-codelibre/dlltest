@@ -1,3 +1,6 @@
+#ifndef A_H
+#define A_H
+
 #include <string>
 #include "aexport.h"
 
@@ -37,3 +40,5 @@ class a_EXPORT a
   std::string const&
   getval() const;
 };
+
+#endif // A_H

@@ -1,3 +1,6 @@
+#ifndef B_H
+#define B_H
+
 #include <string>
 #include "bexport.h"
 
@@ -37,3 +40,5 @@ class b_EXPORT b
   std::string const&
   getval() const;
 };
+
+#endif // B_H

@@ -1,3 +1,6 @@
+#ifndef D_H
+#define D_H
+
 #include <vector>
 #include <string>
 #include "dexport.h"
@@ -40,3 +43,5 @@ class d_EXPORT d
   std::vector<std::string> const&
   getval() const;
 };
+
+#endif // D_H
