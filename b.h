@@ -24,9 +24,7 @@
 
 #ifdef _MSC_VER
 // Explicit template exports.
-#include <string>
 b_EXPORT_TEMPLATE template class b_EXPORT std::allocator<char>;
-b_EXPORT_TEMPLATE template struct b_EXPORT std::char_traits<char>;
 b_EXPORT_TEMPLATE template class b_EXPORT std::basic_string<char, std::char_traits<char>, std::allocator<char> >;
 #endif
 

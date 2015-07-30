@@ -1,7 +1,20 @@
 #include "d.h"
 
+namespace
+{
+  std::vector<std::string>
+  values()
+  {
+    std::vector<std::string> ret;
+    ret.push_back("d1");
+    ret.push_back("d2");
+    ret.push_back("d3");
+    return ret;
+  }
+}
+
 d::d():
-  val({"d1", "d2", "d3"})
+  val(values())
 {
 }
 

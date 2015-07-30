@@ -1,7 +1,20 @@
 #include "c.h"
 
+namespace
+{
+  std::vector<std::string>
+  values()
+  {
+    std::vector<std::string> ret;
+    ret.push_back("c1");
+    ret.push_back("c2");
+    ret.push_back("c3");
+    return ret;
+  }
+}
+
 c::c():
-  val({"c1", "c2", "c3"})
+  val(values())
 {
 }
 
