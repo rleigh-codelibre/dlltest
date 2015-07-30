@@ -46,7 +46,10 @@ add_executable(testb testb.cpp)
 target_link_libraries(testb a b)
 
 add_executable(testc testc.cpp)
-target_link_libraries(testc a b c)
+target_link_libraries(testc c)
 
 add_executable(testd testd.cpp)
-target_link_libraries(testd a b c d)
+target_link_libraries(testd c d)
+
+add_executable(testall testall.cpp)
+target_link_libraries(testall a b c d)

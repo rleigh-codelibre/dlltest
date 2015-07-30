@@ -11,6 +11,7 @@ Release\testa
 Release\testb
 Release\testc
 Release\testd
+Release\testall
 cd ..
 
 mkdir 2015s
@@ -26,4 +27,5 @@ Release\testa
 Release\testb
 Release\testc
 Release\testd
+Release\testall
 cd ..
